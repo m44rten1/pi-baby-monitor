@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"></script>
+  <script>
+    const peer = new Peer("test_test_test1234567890");
+
+    console.log(peer);
+
+    peer.on("open", function (id) {
+      console.log("My peer ID is: " + id);
+    });
+
+    peer.on("connection", (conn) => {
+      window.conn = conn;
+      console.log("New connection: ", conn);
+
+      conn.on("data", (data) => {
+        console.log(data);
+        conn.send("You send me: ", data);
+      });
+
+      var getUserMedia =
+        navigator.getUserMedia ||
+        navigator.webkitGetUserMedia ||
+        navigator.mozGetUserMedia;
+
+      getUserMedia(
+        { video: true, audio: true },
+        function (stream) {
+          var call = peer.call(conn.peer, stream);
+          call.on("stream", function (remoteStream) {
+            console.log("Remote stream: ", remoteStream);
+            // Show stream in some video/canvas element.
+          });
+        },
+        function (err) {
+          console.log("Failed to get local stream", err);
+        }
+      );
+    });
+  </script>
+</html>
