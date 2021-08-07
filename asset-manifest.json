@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pi-baby-monitor/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/pi-baby-monitor/static/js/main.98e67dae.chunk.js",
+    "main.js.map": "/pi-baby-monitor/static/js/main.98e67dae.chunk.js.map",
+    "runtime-main.js": "/pi-baby-monitor/static/js/runtime-main.8520d4ea.js",
+    "runtime-main.js.map": "/pi-baby-monitor/static/js/runtime-main.8520d4ea.js.map",
+    "static/js/2.d651c2d1.chunk.js": "/pi-baby-monitor/static/js/2.d651c2d1.chunk.js",
+    "static/js/2.d651c2d1.chunk.js.map": "/pi-baby-monitor/static/js/2.d651c2d1.chunk.js.map",
+    "static/js/3.9c888447.chunk.js": "/pi-baby-monitor/static/js/3.9c888447.chunk.js",
+    "static/js/3.9c888447.chunk.js.map": "/pi-baby-monitor/static/js/3.9c888447.chunk.js.map",
+    "index.html": "/pi-baby-monitor/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/pi-baby-monitor/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.d651c2d1.chunk.js.LICENSE.txt": "/pi-baby-monitor/static/js/2.d651c2d1.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/pi-baby-monitor/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8520d4ea.js",
+    "static/js/2.d651c2d1.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.98e67dae.chunk.js"
+  ]
+}
