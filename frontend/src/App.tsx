@@ -171,6 +171,7 @@ const App = () => {
         hidden={!connected || isLoading}
         style={{ objectFit: "cover", width: "100vw", height: "100vh" }}
         controls
+        autoPlay
       ></video>
     </>
   );
