@@ -1,6 +1,5 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-import os
 
 opt = Options()
 opt.add_argument("--disable-infobars")
@@ -19,6 +18,6 @@ opt.add_experimental_option("prefs", {
 
 driver = webdriver.Chrome(
     options=opt, executable_path='/usr/lib/chromium-browser/chromedriver')
-driver.get('file://' + os.getcwd() + '/index.html')
+driver.get('file:///home/pi/Documents/Projects/pi-baby-monitor/pi/index.html')
 
 print("Headless browser started...")
