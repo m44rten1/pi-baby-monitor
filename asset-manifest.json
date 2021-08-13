@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/pi-baby-monitor/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/pi-baby-monitor/static/js/main.cb7f2f6f.chunk.js",
-    "main.js.map": "/pi-baby-monitor/static/js/main.cb7f2f6f.chunk.js.map",
-    "runtime-main.js": "/pi-baby-monitor/static/js/runtime-main.8c0c32fd.js",
-    "runtime-main.js.map": "/pi-baby-monitor/static/js/runtime-main.8c0c32fd.js.map",
-    "static/js/2.bd4c6fad.chunk.js": "/pi-baby-monitor/static/js/2.bd4c6fad.chunk.js",
-    "static/js/2.bd4c6fad.chunk.js.map": "/pi-baby-monitor/static/js/2.bd4c6fad.chunk.js.map",
-    "static/js/3.fd58472e.chunk.js": "/pi-baby-monitor/static/js/3.fd58472e.chunk.js",
-    "static/js/3.fd58472e.chunk.js.map": "/pi-baby-monitor/static/js/3.fd58472e.chunk.js.map",
+    "main.css": "/pi-baby-monitor/static/css/main.c788ed82.chunk.css",
+    "main.js": "/pi-baby-monitor/static/js/main.d05d8af2.chunk.js",
+    "main.js.map": "/pi-baby-monitor/static/js/main.d05d8af2.chunk.js.map",
+    "runtime-main.js": "/pi-baby-monitor/static/js/runtime-main.82b1966e.js",
+    "runtime-main.js.map": "/pi-baby-monitor/static/js/runtime-main.82b1966e.js.map",
+    "static/css/2.f9dc9d5b.chunk.css": "/pi-baby-monitor/static/css/2.f9dc9d5b.chunk.css",
+    "static/js/2.853e9188.chunk.js": "/pi-baby-monitor/static/js/2.853e9188.chunk.js",
+    "static/js/2.853e9188.chunk.js.map": "/pi-baby-monitor/static/js/2.853e9188.chunk.js.map",
+    "static/js/3.3f4675bf.chunk.js": "/pi-baby-monitor/static/js/3.3f4675bf.chunk.js",
+    "static/js/3.3f4675bf.chunk.js.map": "/pi-baby-monitor/static/js/3.3f4675bf.chunk.js.map",
     "index.html": "/pi-baby-monitor/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/pi-baby-monitor/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.bd4c6fad.chunk.js.LICENSE.txt": "/pi-baby-monitor/static/js/2.bd4c6fad.chunk.js.LICENSE.txt"
+    "static/css/2.f9dc9d5b.chunk.css.map": "/pi-baby-monitor/static/css/2.f9dc9d5b.chunk.css.map",
+    "static/css/main.c788ed82.chunk.css.map": "/pi-baby-monitor/static/css/main.c788ed82.chunk.css.map",
+    "static/js/2.853e9188.chunk.js.LICENSE.txt": "/pi-baby-monitor/static/js/2.853e9188.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8c0c32fd.js",
-    "static/js/2.bd4c6fad.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.cb7f2f6f.chunk.js"
+    "static/js/runtime-main.82b1966e.js",
+    "static/css/2.f9dc9d5b.chunk.css",
+    "static/js/2.853e9188.chunk.js",
+    "static/css/main.c788ed82.chunk.css",
+    "static/js/main.d05d8af2.chunk.js"
   ]
 }
