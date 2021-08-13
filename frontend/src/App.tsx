@@ -143,6 +143,7 @@ const App = () => {
                               !signInInfo.rememberMe
                             )
                           }
+                          disabled={isLoading}
                         />
                         <span className="ml-1">Remember me</span>
                       </label>
