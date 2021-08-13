@@ -2,13 +2,14 @@
 <html lang="en">
   <script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"></script>
   <script>
-    const peer = new Peer("raspberry-pi-id");
+    const ID = "YOUR_PRIVATE_UNIQUE_ID_HERE";
+    const PASSWORD = "YOUR_PRIVATE_PASSWORD_HERE";
 
-    console.log("Peer: ", peer);
+    const peer = new Peer(ID);
 
     peer.on("connection", (conn) => {
       conn.on("data", (data) => {
-        if (data === "Test1234") {
+        if (data === PASSWORD) {
           var getUserMedia =
             navigator.getUserMedia ||
             navigator.webkitGetUserMedia ||
