@@ -7,24 +7,31 @@
 
     const peer = new Peer(ID);
 
+    const streamCache = null;
+
     peer.on("connection", (conn) => {
       conn.on("data", (data) => {
         if (data === PASSWORD) {
-          var getUserMedia =
-            navigator.getUserMedia ||
-            navigator.webkitGetUserMedia ||
-            navigator.mozGetUserMedia;
+          if (!streamCache) {
+            var getUserMedia =
+              navigator.getUserMedia ||
+              navigator.webkitGetUserMedia ||
+              navigator.mozGetUserMedia;
 
-          getUserMedia(
-            { video: true, audio: true },
-            (stream) => {
-              const call = peer.call(conn.peer, stream);
-            },
-            function (err) {
-              console.log("Failed to get local stream", err);
-              conn.send("permission-failure");
-            }
-          );
+            getUserMedia(
+              { video: true, audio: true },
+              (stream) => {
+                streamCache = stream;
+                const call = peer.call(conn.peer, stream);
+              },
+              function (err) {
+                console.log("Failed to get local stream", err);
+                conn.send("permission-failure");
+              }
+            );
+          } else {
+            peer.call(conn.peer, stream);
+          }
         } else {
           conn.send("wrong");
         }
